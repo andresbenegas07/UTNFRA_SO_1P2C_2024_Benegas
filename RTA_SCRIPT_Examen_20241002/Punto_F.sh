@@ -12,4 +12,4 @@ echo "El Hash de mi usuario es: $(sudo grep $(whoami) /etc/shadow | awk -F ':' '
 cat Filtro_Avanzado.txt
 
 
-git remote get-url origin
+echo "La URL de mi repositorio es: $(git remote get-url origin)" >> ~/repogit/UTNFRA_SO_1P2C_2024_Benegas/RTA_ARCHIVOS_Examen_20241002/Filtro_Avanzado.txt
